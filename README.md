@@ -18,7 +18,7 @@ To make the execution of command line version of those tools as painless as poss
 - Mac: https://docs.docker.com/docker-for-mac/
 - Linux: https://docs.docker.com/engine/installation/
 
-Remember to share some folder with the Docker images (from the tray icon of Docker select *Preferences...* and then the *File Sharing* tab). At least the folder that contain this repository.
+Remember to share some folder with the Docker images (from the tray icon of Docker select *Preferences...* and then the *File Sharing* tab). At least the folder that contains this repository.
 
 Each example is organized in the following way: inside each example folder you have the **input data used an html file** that shows the execution log and the commands used to run the Docker commands. I provide also the IPython notebook file .ipynb used to create the html file, in case you want to modify it and/or run it interactively  (in this case you need to install IPython and the bash kernel).
 
