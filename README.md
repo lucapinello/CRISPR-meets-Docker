@@ -6,7 +6,7 @@ This guide uses Docker images and step by step instructions documented in IPytho
 
 In this repository I cover common computational analysis involving CRISPR sequencing data:
 
-- **Example 1**: Guide design with **CRISPOR**. 
+- **Example 1**: Guide design with **CRISPOR**.
 
 - **Example 2**: Quantification of editing efficiency, off-target effects and allele frequency from (deep)sequencing data with **CRISPResso**.
 
@@ -26,4 +26,4 @@ Note: These examples are not designed to be very detailed and comprehensive but 
 
 If you want to contribute with more tool/examples shoot me a message. I think this repository may be helpful for many people
 
-BTW I am starting a lab at **Massachusetts General Hospital/ Harvard Medical School** in Boston and I am currently hiring! if you are interested in **computational challenges** in bioinformatic in genomics, CRISPR genome editing and love reproducible research practices take a look to my website for **available positions: pinellolab.org**
+BTW I am starting a lab at **Massachusetts General Hospital/ Harvard Medical School** in Boston and I am currently hiring! if you are interested in **computational challenges** in bioinformatic in genomics, CRISPR genome editing and love reproducible research practices take a look to my website for **available positions: http://pinellolab.org**
