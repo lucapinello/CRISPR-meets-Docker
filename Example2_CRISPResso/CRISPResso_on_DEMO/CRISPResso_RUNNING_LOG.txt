@@ -1,0 +1,63 @@
+[Command used]:
+CRISPResso /opt/conda/bin/CRISPResso -r1 reads1.fastq.gz -r2 reads2.fastq.gz -a AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT -g TGAACCAGACCACGGCCCGT -w 5 --name DEMO --save_also_png
+
+[Execution log]:
+Estimating average read length...
+Merging paired sequences with Flash...
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     reads1.fastq.gz
+[FLASH]     reads2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     CRISPResso_on_DEMO/out.extendedFrags.fastq.gz
+[FLASH]     CRISPResso_on_DEMO/out.notCombined_1.fastq.gz
+[FLASH]     CRISPResso_on_DEMO/out.notCombined_2.fastq.gz
+[FLASH]     CRISPResso_on_DEMO/out.hist
+[FLASH]     CRISPResso_on_DEMO/out.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           4
+[FLASH]     Max overlap:           155
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 12500 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      12500
+[FLASH]     Combined pairs:   11882
+[FLASH]     Uncombined pairs: 618
+[FLASH]     Percent combined: 95.06%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.202 seconds elapsed
+Done!
+Preparing files for the alignment...
+Done!
+Aligning sequences...
+Needleman-Wunsch global alignment of two sequences
+Align sequences to reverse complement of the amplicon...
+Done!
+Needleman-Wunsch global alignment of two sequences
+Quantifying indels/substitutions...
+Done!
+Calculating indel distribution based on the length of the reads...
+Done!
+Calculating alleles frequencies...
+Done!
+Making Plots...
+Done!
+Removing Intermediate files...
+Saving processed data...
+All Done!
