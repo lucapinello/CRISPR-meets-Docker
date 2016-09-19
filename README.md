@@ -2,7 +2,13 @@
 ### Common bioinformatic analysis involving genome editing experiments made easy with Docker
 
 
-This guide uses Docker images and step by step instructions documented in IPython notebooks (bash kernel) to illustrate common CRISPR bioinformatic analysis. These are the tools currently covered: CRISPOR(https://github.com/maximilianh/crisporWebsite), CRISPResso (https://github.com/lucapinello/CRISPResso) and MAGeCK(https://sourceforge.net/p/mageck).
+This guide uses Docker images and step by step instructions documented in IPython notebooks (bash kernel) to illustrate common CRISPR bioinformatic analysis.
+
+These are the tools currently covered:
+
+- CRISPOR(https://github.com/maximilianh/crisporWebsite),
+- CRISPResso (https://github.com/lucapinello/CRISPResso) and
+- MAGeCK(https://sourceforge.net/p/mageck).
 
 In this repository I cover common computational analysis involving CRISPR sequencing data:
 
